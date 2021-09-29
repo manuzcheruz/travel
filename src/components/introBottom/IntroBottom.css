@@ -1,0 +1,25 @@
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.2fr;
+    text-align: left;
+    background: green;
+    border-radius: 10px;
+    width: 400px;
+    height: 70px;
+}
+
+.table .items {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.table .items .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table .items .sub {
+    font-size: 15px;
+    color: grey;
+    margin-top: 5px;
+}

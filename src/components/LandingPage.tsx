@@ -1,7 +1,11 @@
+import IntroSection from "./introSection/IntroSection";
+import Navbar from "./navbar/Navbar";
+
 function LandingPage() {
     return (
         <div className="wrapper">
-            hello
+            <Navbar />
+            <IntroSection />
         </div>
     )
 }

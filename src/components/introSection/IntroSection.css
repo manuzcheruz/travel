@@ -1,0 +1,58 @@
+.intro-wrapper {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 7.5%;
+    width: 85vw;
+}
+
+.intro-wrapper .intro-left .intro-title {
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.intro-wrapper .intro-left .intro-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: grey;
+    line-height: 25px;
+}
+
+.intro-wrapper .intro-left .intro-btn {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    margin-top: 20px;
+}
+
+.intro-wrapper .intro-left .intro-btn .btn button {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #F99805;
+    border: none;
+    color: white;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+}
+
+.intro-wrapper .intro-left .intro-btn .btn button .text {
+    margin-top: 14px;
+}
+
+.intro-wrapper .intro-left .intro-btn .text button {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.intro-wrapper .intro-left .intro-btn .text button .text {
+    margin-top: 14px;
+}

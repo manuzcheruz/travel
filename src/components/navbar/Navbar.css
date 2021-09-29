@@ -1,0 +1,69 @@
+.navbar-wrapper {
+    margin-left: 7.5%;
+    width: 85vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-wrapper .name {
+    font-weight: 600;
+    font-style: italic;
+    color: #F99805;
+}
+
+.navbar-wrapper .links-wrapper {
+    text-align: right;
+}
+
+.navbar-wrapper .links-wrapper button {
+    text-decoration: none;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    color: grey;
+    font-weight: bold;
+}
+
+.navbar-wrapper .links-wrapper button:hover {
+    opacity: 1;
+}
+
+.navbar-wrapper .account-wrapper button {
+    text-decoration: none;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    color: grey;
+}
+
+.navbar-wrapper .account-wrapper button:hover {
+    opacity: 1;
+}
+
+.navbar-wrapper .account-wrapper button:active {
+    color: #55BC7E;
+    text-decoration: underline;
+}
+
+.navbar-wrapper .account-wrapper .create-acc {
+    color: white;
+    background-color: #55BC7E;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.navbar-wrapper .account-wrapper .create-acc span {
+    margin-right: 10px;
+}
